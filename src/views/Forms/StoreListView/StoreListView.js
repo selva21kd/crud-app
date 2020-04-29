@@ -92,7 +92,7 @@ export class StoreListView extends Component {
                                 <TableCell>#</TableCell>
                                 <TableCell>Name</TableCell>
                                 <TableCell>Status</TableCell>
-                                <TableCell>Date</TableCell>
+                                {/* <TableCell>Date</TableCell> */}
                                 <TableCell>Edit</TableCell>
                                 <TableCell>Delete</TableCell>
                             </TableRow>
@@ -112,9 +112,9 @@ export class StoreListView extends Component {
                                             <TableCell>
                                                 { val.status}
                                             </TableCell>
-                                            <TableCell>
+                                            {/* <TableCell>
                                                 { val.date}
-                                            </TableCell>
+                                            </TableCell> */}
                                             <TableCell>
                                                 <FontAwesomeIcon icon={ faEdit } onClick = { ()=> this.clickHandler(val) }/>
                                             </TableCell>
